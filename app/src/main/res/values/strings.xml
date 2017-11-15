@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiBand</string>
+
+    <string name="device_found">Device %s was found</string>
+    <string name="touch_device">Dotknite sa zariadenia</string>
+    <string name="connecting_device">Prebieha pripájanie</string>
+    <string name="devices_finding">Vyhľadávanie zariadení v blízkosti</string>
+
+    <!-- buttons -->
+    <string name="find_device">Hľadať zariadenia</string>
+
+
+    <!-- errors -->
+    <string name="bt_not_found">Bluetooth adapter not found</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

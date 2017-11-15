@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dpihealth.sk.miband.fragments.BluetoothConnectionFragment"
+    android:id="@+id/btConnectionFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/devices_finding"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loaderIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorName="BallScaleMultipleIndicator"
+        android:layout_gravity="center"
+        app:indicatorColor="@color/colorPrimary"/>
+
+</LinearLayout>
